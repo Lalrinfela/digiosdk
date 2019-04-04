@@ -1,4 +1,4 @@
-(function(){
+module.exports = function digiosdk() {
     "use strict";
 
     var CONSTANTS = {
@@ -559,4 +559,4 @@
 
     String.prototype.format.regex = new RegExp("{-?[0-9]+}", "g");
 
-})();
+}
